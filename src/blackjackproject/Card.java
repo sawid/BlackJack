@@ -27,6 +27,8 @@ public class Card extends Parent{
             this.image = new Image(Card.class.getResourceAsStream("images/".concat(name().toLowerCase()).concat(".png")),
                     32, 32, true, true);
         }
+        
+        
     }
 
     enum Rank {
