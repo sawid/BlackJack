@@ -96,9 +96,9 @@ public class BlackjackProject extends Application{
         VBox rightVBox = new VBox(20);
         rightVBox.setAlignment(Pos.CENTER);
 
-        final TextField bet = new TextField("BET");
-        bet.setDisable(false);
-        bet.setMaxWidth(50);
+        //final TextField bet = new TextField("BET");
+        //bet.setDisable(false);
+        //bet.setMaxWidth(50);
         Text money = new Text("Take Your Action !");
         money.setStyle("-fx-font-family: Cambria; -fx-font-size: 25;");
         money.setFill(Color.WHITE);
@@ -113,7 +113,7 @@ public class BlackjackProject extends Application{
         HBox buttonsHBox = new HBox(15, btnHit, btnStand);
         buttonsHBox.setAlignment(Pos.CENTER);
 
-        rightVBox.getChildren().addAll(bet, btnPlay, money, buttonsHBox);
+        rightVBox.getChildren().addAll( btnPlay, money, buttonsHBox);
 
         // ADD BOTH STACKS TO ROOT LAYOUT
 
